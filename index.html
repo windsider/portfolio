@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>
+         Тестирование сайта
+      </title>
+      <meta name="description" content="Тестирование сайтов">
+      <meta name="keywords" content="тестирование сайта, тестирование веб сайтов, 
+         тестирование веб, тестирование безопасности сайта, тестирование сайта в разных браузерах, тестирование юзабилити сайта, тестирование сайта на ошибки">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script type="text/javascript" src="js/jquery.stickytableheaders.js"></script>
+      <link href="css/russian.css" rel="stylesheet">
+   </head>
+   <body>
+      <div id="container">
+         <div>
+            <p id="ad">
+               Тестирование веб-приложений: портфолио
+               <br>
+               Email: vrzherdev@gmail.com
+               <br>
+               Skype: viktor.dorcas
+               <br>
+               Mob: +38 095-124-15-94
+            </p>
+            <p id="lng">
+               <a href="http://scout-charles-10726.netlify.com/">English</a>
+            </p>
+            <p id="sl">
+               Слова лгут, факты режут глаз
+            </p>
+         </div>
+         <table class="table">
+            <thead>
+               <tr>
+                  <th id="pr">
+                     Проект
+                  </th>
+                  <th id="tp">
+                     Тип приложения
+                  </th>
+                  <th id="pm">
+                     Вид теста / Проблема
+                  </th>
+                  <th id="sn" >
+                     Скриншот
+                  </th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>
+                     <a href="http://sanext.ru/">
+                     Sanext
+                     </a>
+                  </td>
+                  <td>
+                     Каталог сантехники с возможностью онлайн заказа
+                  </td>
+                  <td>
+                     <span>
+                     Функциональность:
+                     </span>
+                     неверный подсчет итоговой суммы заказа
+                  </td>
+                  <td class="bk">
+                     <img src="img/sum.jpg" alt="Wrong sum" class="img">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://sanext.ru/">           
+                     Sanext            
+                     </a>
+                  </td>
+                  <td>
+                     Каталог сантехники с возможностью онлайн заказа
+                  </td>
+                  <td>
+                     <span>
+                     Безопасность:
+                     </span>
+                     допуск ввода отрицательных чисел и как следствие подсчет отрицательной суммы
+                  </td>
+                  <td class="bk">
+                     <img src="img/neg.jpg" alt="Negative numbers" class="img">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://sanext.ru/">
+                     Sanext
+                     </a>
+                  </td>
+                  <td>
+                     Каталог сантехники с возможностью онлайн заказа
+                  </td>
+                  <td>
+                     <span>
+                     Безопасность:
+                     </span>
+                     поля формы  ОС допускают ввод SQL инъекции
+                  </td>
+                  <td class="bk">
+                     <img src="img/saf.jpg" alt="SQL injection" width="300" height="255">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://sanext.ru/">
+                     Sanext
+                     </a>
+                  </td>
+                  <td>
+                     Каталог сантехники с возможностью онлайн заказа
+                  </td>
+                  <td>
+                     <span>
+                     Пользовательский интерфейс:
+                     </span>
+                     смещение полей для ввода количества товара
+                  </td>
+                  <td class="bk">
+                     <img src="img/shift.jpg" alt="Displaced fields" class="img">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://shop.geizer.com/">
+                     Geizer
+                     </a>
+                  </td>
+                  <td>
+                     Интернет-магазин водяных фильтров
+                  </td>
+                  <td>
+                     <span>
+                     Безопасность:
+                     </span>
+                     поле Имя допускает ввод SQL инъекции
+                  </td>
+                  <td class="bk">
+                     <img src="img/safg.jpg" alt="SQL injection" width="400" height="255">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://shop.geizer.com/">
+                     Geizer
+                     </a>
+                  </td>
+                  <td>
+                     Интернет-магазин водяных фильтров
+                  </td>
+                  <td>
+                     <span>
+                     Пользовательский интерфейс:
+                     </span>
+                     лишние чек-боксы
+                  </td>
+                  <td class="bk">
+                     <img src="img/checkb.jpg" alt="Extra checkboxes" width="280" height="255">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://shop.geizer.com/">
+                     Geizer
+                     </a>
+                  </td>
+                  <td>
+                     Интернет-магазин водяных фильтров
+                  </td>
+                  <td>
+                     <span>
+                     Пользовательский интерфейс:
+                     </span>
+                     сливаются значения фильтра
+                  </td>
+                  <td class="bk">
+                     <img src="img/filtr.jpg" alt="Merging values" width="280" height="255">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://shop.geizer.com/">
+                     Geizer
+                     </a>
+                  </td>
+                  <td>
+                     Интернет-магазин водяных фильтров
+                  </td>
+                  <td>
+                     <span>
+                     Функциональность:
+                     </span>
+                     функция Отзывы не работает в Safari
+                  </td>
+                  <td class="bk">
+                     <img src="img/safari.jpg" alt="Review" width="300" height="255">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://alitet.com/">
+                     Алитет
+                     </a>
+                  </td>
+                  <td>
+                     Каталог оборудования, сырья и ингредиентов для производства хлебобулочных и кондитерских изделий 
+                  </td>
+                  <td>
+                     <span>
+                     Пользовательский интерфейс:
+                     </span>
+                     нет даты публикации 
+                  </td>
+                  <td class="bk">
+                     <img src="img/date.jpg" alt="Date of publication" class="img">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://alitet.com/">
+                     Алитет
+                     </a>
+                  </td>
+                  <td>
+                     Каталог оборудования, сырья и ингредиентов для производства хлебобулочных и кондитерских изделий 
+                  </td>
+                  <td>
+                     <span>
+                     Пользовательский интерфейс:
+                     </span>
+                     все пункты выпадающего списка одинаковы 
+                  </td>
+                  <td class="bk">
+                     <img src="img/same.jpg" alt="Drop-down list" width="300" height="255">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://poltraf.ru/">
+                     Полтраф
+                     </a>
+                  </td>
+                  <td>
+                     Каталог дочерней компании швейцарского завода-производителя КИПиА Trafag AG
+                  </td>
+                  <td>
+                     <span>
+                     Функциональность:
+                     </span>
+                     сообщения из формы ОС не сохраняются в БД и админпанели 
+                  </td>
+                  <td class="bk">
+                     <img src="img/form.jpg" alt="Messages not saved" width="400" height="355">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://poltraf.ru/">
+                     Полтраф
+                     </a>
+                  </td>
+                  <td>
+                     Каталог дочерней компании швейцарского завода-производителя КИПиА Trafag AG
+                  </td>
+                  <td>
+                     <span>
+                     Функциональность:
+                     </span>
+                     не добавляются товары в корзину 
+                  </td>
+                  <td class="bk">
+                     <img src="img/cart.jpg" alt="Items not added" width="400" height="355">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://atoll.astramgtest.ru/">
+                     Атолл
+                     </a>
+                     <br>
+                     *на тестовом сервере
+                  </td>
+                  <td>
+                     Каталог  компании-поставщика отделочных материалов
+                  </td>
+                  <td>
+                     <span>
+                     Функциональность:
+                     </span>
+                     не добавляются товары в Заказ 
+                  </td>
+                  <td class="bk">
+                     <img src="img/order.jpg" alt="Items not added" width="510" height="355">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://atoll.astramgtest.ru/">
+                     Атолл
+                     </a>
+                     <br>
+                     *на тестовом сервере
+                  </td>
+                  <td>
+                     Каталог  компании-поставщика отделочных материалов
+                  </td>
+                  <td>
+                     <span>
+                     Кроссбраузерное тестирование:
+                     </span>
+                     пункт Корзина и языковые опции смещены в IE9 - 11 
+                  </td>
+                  <td class="bk">
+                     <img src="img/cross.jpg" alt="Cart displaced" width="510" height="150">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://ailend.astramgtest.ru/">
+                     Island
+                     </a>
+                     <br>
+                     *на тестовом сервере
+                  </td>
+                  <td>
+                     Интернет-магазин по продаже бутилированной воды 
+                  </td>
+                  <td>
+                     <span>
+                     Юзабилити:
+                     </span>
+                     сообщение об ошибках выделено обычным цветом,
+                     <br>
+                     не отмечены поля, обязательные к заполнению
+                  </td>
+                  <td class="bk">
+                     <img src="img/usb.jpg" alt="Usability" width="510" height="350">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://ailend.astramgtest.ru/">
+                     Island
+                     </a>
+                     <br>
+                     *на тестовом сервере
+                  </td>
+                  <td>
+                     Интернет-магазин по продаже бутилированной воды 
+                  </td>
+                  <td>
+                     <span>
+                     Безопасность:
+                     </span>
+                     допуск ввода отрицательных чисел и как следствие подсчет отрицательной суммы
+                  </td>
+                  <td class="bk">
+                     <img src="img/nega.jpg" alt="Negative numbers" class="img">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://bookingline.astramgtest.ru/">
+                     Bookingline
+                     </a>
+                     <br>
+                     *на тестовом сервере
+                  </td>
+                  <td>
+                     Онлайн сервис по бронированию отелей, авиа и ЖД билетов, визовой поддержки и страхованию
+                  </td>
+                  <td>
+                     <span>
+                     Функциональность:
+                     </span>
+                     чекбоксы позволяют выбрать все опции и выборочные опции одновременно
+                  </td>
+                  <td class="bk">
+                     <img src="img/chb.jpg" alt="Checkboxes" width="510" height="200">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://bookingline.astramgtest.ru/">
+                     Bookingline
+                     </a>
+                     <br>
+                     *на тестовом сервере
+                  </td>
+                  <td>
+                     Онлайн сервис по бронированию отелей, авиа и ЖД билетов, визовой поддержки и страхованию
+                  </td>
+                  <td>
+                     <span>
+                     Безопасность:
+                     </span>
+                     календарь позволяет выбрать прошедшую дату
+                  </td>
+                  <td class="bk">
+                     <img src="img/dateb.jpg" alt="Date picker" width="510" height="200">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://svitmam.ua/">
+                     Світмам
+                     </a>
+                     <br>
+                  </td>
+                  <td>
+                     Первая украинская социальная сеть для будущих и состоявшихся мам
+                  </td>
+                  <td>
+                     <span>
+                     Нагрузочное тестирование:
+                     </span>
+                     минимальная нагрузка (JMeter)
+                  </td>
+                  <td class="bk">
+                     <img src="img/base.jpg" alt="Performance" width="510" height="260">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://svitmam.ua/">
+                     Світмам
+                     </a>
+                     <br>
+                  </td>
+                  <td>
+                     Первая украинская социальная сеть для будущих и состоявшихся мам
+                  </td>
+                  <td>
+                     <span>
+                     Нагрузочное тестирование:
+                     </span>
+                     максимальное количество одновременных пользователей при 100%-й производительности системы (JMeter)
+                  </td>
+                  <td class="bk">
+                     <img src="img/scal.jpg" alt="Performance" width="510" height="260">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://svitmam.ua/">
+                     Світмам
+                     </a>
+                     <br>
+                  </td>
+                  <td>
+                     Первая украинская социальная сеть для будущих и состоявшихся мам
+                  </td>
+                  <td>
+                     <span>
+                     Нагрузочное тестирование:
+                     </span>
+                     производительность системы после скачка нагрузки (JMeter)
+                  </td>
+                  <td class="bk">
+                     <img src="img/spike.jpg" alt="Performance" width="510" height="600">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://svitmam.ua/">
+                     Світмам
+                     </a>
+                     <br>
+                  </td>
+                  <td>
+                     Первая украинская социальная сеть для будущих и состоявшихся мам
+                  </td>
+                  <td>
+                     <span>
+                     Нагрузочное тестирование:
+                     </span>
+                     стресс-тестирование (JMeter)
+                  </td>
+                  <td class="bk">
+                     <img src="img/stress.jpg" alt="Performance" width="510" height="250">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://svitmam.ua/">
+                     Світмам
+                     </a>
+                     <br>
+                  </td>
+                  <td>
+                     Первая украинская социальная сеть для будущих и состоявшихся мам
+                  </td>
+                  <td>
+                     <span>
+                     Нагрузочное тестирование:
+                     </span>
+                     тестирование стабильной производительности (JMeter)
+                  </td>
+                  <td class="bk">
+                     <img src="img/stab.jpg" alt="Performance" width="510" height="250">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <a href="http://lwpiter.ru/">
+                     LWPiter
+                     </a>
+                     <br>
+                  </td>
+                  <td>
+                     Сайт-визитка клуба для игры в пейнтбол
+                  </td>
+                  <td>
+                     <span>
+                     Пользовательский интерфейс:
+                     </span>
+                     элементы списка в слайдере переходят вверх при наведении курсора
+                  </td>
+                  <td class="bk">
+                     <img src="img/lwp.jpg" alt="Slider" class="img">
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <script type="text/javascript">  
+         $('.table').stickyTableHeaders();      
+         
+      </script>
+   </body>
+</html>
